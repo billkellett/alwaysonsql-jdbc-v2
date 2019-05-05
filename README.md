@@ -1,7 +1,7 @@
 # alwaysonsql-jdbc-v2
 Java resource for DataStax AlwaysOnSQL Workshop
 
-This is an IntelliJ Java project.  Note that .gitignore ignores the entire .idea folder. 
+This is a Maven-based Java project built with IntelliJ.  Note that .gitignore ignores the entire .idea folder. 
 
 Before starting the project, **you must install the AlwaysOnSQL JDBC Driver in your local Maven repository**. The driver can be downloaded from the DataStax documentation site. Go to https://docs.datastax.com/en/landing_page/doc/landing_page/current.html and scroll down to "JDBC/ODBC Drivers."
 
