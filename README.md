@@ -17,7 +17,7 @@ Here is an example installation command:
 mvn install:install-file -Dfile=C:\Users\Bill\Squirrel\jdbc-drivers\SparkJDBC41.jar -DgroupId=com.kellett.code -DartifactId=spark-jdbc -Dversion=4.1 -Dpackaging=jar -DgeneratePom=true
 ```
 		
-Then you can reference it in your project thusly:
+Then you can reference it in your .pom thusly:
 
 ```
 <dependency>
