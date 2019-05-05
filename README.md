@@ -3,7 +3,7 @@ Java resource for DataStax AlwaysOnSQL Workshop
 
 This is an IntelliJ Java project.  Note that .gitignore ignores the entire .idea folder. 
 
-Before starting the project, **you must install the AlwaysOnSQL JDBC Driver in your local Maven repository**. The driver can be downloaded from the DataStax documentation site. 
+Before starting the project, **you must install the AlwaysOnSQL JDBC Driver in your local Maven repository**. The driver can be downloaded from the DataStax documentation site. Go to https://docs.datastax.com/en/landing_page/doc/landing_page/current.html and scroll down to "JDBC/ODBC Drivers."
 
 To find local repo location: 
 
@@ -11,7 +11,7 @@ To find local repo location:
 mvn help:evaluate -Dexpression=settings.localRepository 
 ```
 
-Here is an example installation command (run on a single line):
+Here is an example installation command:
 
 ```
 mvn install:install-file -Dfile=C:\Users\Bill\Squirrel\jdbc-drivers\SparkJDBC41.jar -DgroupId=com.kellett.code -DartifactId=spark-jdbc -Dversion=4.1 -Dpackaging=jar -DgeneratePom=true
