@@ -1,4 +1,4 @@
 # alwaysonsql-jdbc-v2
 Java resource for DataStax AlwaysOnSQL Workshop
 
-This is an IntelliJ Java project.
+This is an IntelliJ Java project.  Note that .gitignore ignores the entire .idea folder.
